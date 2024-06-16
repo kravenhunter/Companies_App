@@ -1,0 +1,65 @@
+.company {
+  &__card__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    &__empty {
+      text-align: center;
+    }
+  }
+  &__card {
+    height: 300px;
+    display: grid;
+    row-gap: 20px;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    padding: 15px;
+    & hr {
+      height: 1px;
+      background-color: var(--color-ligthGrey);
+    }
+    & table {
+      text-align: start;
+      & th {
+        // font-size: 4vw;
+        font-size: clamp(14px, 4vw, 14px);
+        font-weight: 400;
+        text-align: start;
+        color: var(--color-darkGrey);
+      }
+      & th:first-child {
+        width: 100px;
+      }
+      & td {
+        font-size: clamp(17px, 5vw, 17px);
+        text-align: start;
+      }
+    }
+    &__title {
+      display: flex;
+      justify-content: space-between;
+      & p {
+        font-size: 22px;
+      }
+      & img {
+        width: 49px;
+        border-radius: 100%;
+      }
+    }
+    &__points {
+      font-weight: 700;
+      font-size: clamp(26px, 6vw, 26px);
+      & span {
+        font-weight: 400;
+        font-size: clamp(20px, 5vw, 20px);
+        color: var(--color-darkGrey);
+      }
+    }
+    &__actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 15px;
+    }
+  }
+}

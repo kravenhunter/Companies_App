@@ -1,0 +1,18 @@
+:root {
+  --color-darkGrey: #949494;
+  --color-ligthGrey: #efefef;
+  --color-blue: #2688eb;
+  --color-red: #ff3044;
+  --color-black: #1a1a1a;
+  --color-white: #ffffff;
+
+  //Font
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

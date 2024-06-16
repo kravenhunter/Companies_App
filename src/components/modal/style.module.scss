@@ -1,0 +1,27 @@
+.modal {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  z-index: 999;
+
+  &__bg__white {
+    background-color: var(--color-white);
+  }
+  &__bg__blure {
+    background-color: rgba(6 6 6/ 58%);
+    backdrop-filter: blur(10px);
+    display: block;
+  }
+}
+
+.message {
+  text-align: center;
+  background-color: var(--color-white);
+  padding: 16px;
+  margin-inline: 16px;
+  border-radius: 20px;
+  & button {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+.not__found {
+  display: grid;
+  justify-items: center;
+  & a {
+    margin-top: 20px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 10px 60px;
+    border-radius: 10px;
+  }
+}

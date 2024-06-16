@@ -1,0 +1,14 @@
+.layout {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  padding: 16px;
+  &__header {
+    background-color: var(--color-white);
+    height: auto;
+    text-align: center;
+    & h1 {
+      margin: 16px 0; //4vw
+      color: var(--color-blue);
+    }
+  }
+}
