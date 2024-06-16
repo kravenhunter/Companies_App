@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { RoutesNavigation } from '@/routes';
 import { CompanyLogo, ModalWrapper } from '@components';
 import { observer } from 'mobx-react-lite';

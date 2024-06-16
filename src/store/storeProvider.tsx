@@ -1,5 +1,5 @@
 import RootStore from '@/store';
-import React, { createContext } from 'react';
+import { createContext, type ReactNode } from 'react';
 //Init data store
 const store = RootStore.create({
   companies: {
@@ -19,7 +19,7 @@ const store = RootStore.create({
 
 export const StoreContext = createContext(store);
 
-export const StoreProvider = ({ children }: { children: React.ReactNode }) => {
+export const StoreProvider = ({ children }: { children: ReactNode }) => {
   return (
     <StoreContext.Provider value={store}>{children}</StoreContext.Provider>
   );

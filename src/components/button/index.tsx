@@ -1,7 +1,7 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import style from './style.module.scss';
 interface IProps {
-  children: React.ReactNode;
+  children: ReactNode;
   handler: () => void;
   backgroundColor?: string;
   color?: string;

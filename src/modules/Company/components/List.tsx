@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { ICompanyDTO } from '@/core';
 import { useStore } from '@/store/hooks';
 import { Loader } from '@components';

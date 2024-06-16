@@ -1,13 +1,13 @@
 import { ICompanyDTO } from '@/core';
 import { useStore } from '@/store/hooks';
 import { BasketIcon, Button, Eye } from '@components';
-import React from 'react';
+import { memo } from 'react';
 import style from './style.module.scss';
 
 interface IProps {
   card: ICompanyDTO;
 }
-export const Card = React.memo(({ card }: IProps) => {
+export const Card = memo(({ card }: IProps) => {
   const { modal } = useStore();
   const handler = () => {
     modal.triggerModal(

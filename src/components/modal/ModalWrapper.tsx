@@ -1,8 +1,8 @@
 import cn from 'classnames';
-import React from 'react';
+import { ReactNode } from 'react';
 import style from './style.module.scss';
 interface IProps {
-  children: React.ReactNode;
+  children: ReactNode;
   isBgWhite?: boolean;
 }
 export const ModalWrapper = ({ isBgWhite = true, children }: IProps) => {
